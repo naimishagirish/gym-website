@@ -331,7 +331,7 @@ body{
 	border-radius: 25px;
 }
 
-	.panel-footer{
+	.foot,.foot2,.foot3{
 	position:absolute;
 	bottom:0;
 	width:100%
@@ -340,13 +340,21 @@ body{
 
 @media (min-width:992px) and (max-width:1199px)
 {
-	
-	
-
+	.foot2,.foot3{
+	position:absolute;
+	bottom:0;
+	width:100%
+	}
 }
 
 @media (min-width:768px) and (max-width:991px)
 {
+	.foot3{
+	position:absolute;
+	bottom:0;
+	width:100%
+
+	}
 	.logo-img {
 	  width: 300px;
 	  height: 68px;
