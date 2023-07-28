@@ -124,9 +124,6 @@ body{
 	padding-bottom:30px;
 	background-color:#000;
 	border-top:0;
-	position:absolute;
-	bottom:0;
-
 }
 
 #Hours, #Address{
@@ -333,6 +330,12 @@ body{
 	height:475px;
 	border-radius: 25px;
 }
+
+	.panel-footer{
+	position:absolute;
+	bottom:0;
+	width:100%
+		
 }
 
 @media (min-width:992px) and (max-width:1199px)
