@@ -171,9 +171,9 @@ body{
 	margin:10px;
 	height:535px;
 	border-radius: 25px;
-	-webkit-box-shadow: 1px 3px 53px -11px rgba(255,255,255,1);
-	-moz-box-shadow: 1px 3px 53px -11px rgba(255,255,255,1);
-	box-shadow: 1px 3px 53px -11px rgba(255,255,255,1);
+	-webkit-box-shadow: -4px 1px 107px -19px rgba(207,202,202,0.66);
+	-moz-box-shadow: -4px 1px 107px -19px rgba(207,202,202,0.66);
+	box-shadow: -4px 1px 107px -19px rgba(207,202,202,0.66);
 }
 
 .coachdet img{
