@@ -73,8 +73,7 @@ body{
 /*main page*/
 
 .img-fluid{
-	margin-top:15px;
-	margin-bottom:30px;
+	margin:15px auto 30px;
 	height:auto;
 	max-width:100%;
 }
