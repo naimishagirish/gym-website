@@ -334,7 +334,18 @@ body{
 	.foot,.foot2,.foot3{
 	position:absolute;
 	bottom:0;
-	width:100%
+	width:100%;
+	}
+
+	
+#facilities, #coach, #map{
+	height:250px;
+	width:100%;
+	position:relative;
+	border: 1px solid #000;
+	overflow:hidden;
+	margin-bottom: 15px;
+}
 		
 }
 
