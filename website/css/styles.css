@@ -79,7 +79,7 @@ body{
 }
 
 #facilities, #coach, #map{
-	height:230px;
+	/*height:230px;*/
 	width:100%;
 	position:relative;
 	border: 1px solid #000;
@@ -99,7 +99,8 @@ body{
 
 #coach{
 	background:url(../images/coach2.png) no-repeat;
-	background-position:center;
+	background-position: center;
+	background-size:cover;
 
 }
 
@@ -339,12 +340,10 @@ body{
 
 	
 #facilities, #coach, #map{
+	width:100%;
 	height:300px;
-	width:90%;
-	position:relative;
-	border: 1px solid #000;
-	overflow:hidden;
 	margin-bottom: 15px;
+	margin:0px auto 20px;
 }
 		
 }
@@ -355,6 +354,12 @@ body{
 	position:absolute;
 	bottom:0;
 	width:100%
+	}
+
+	#facilities, #coach, #map{
+		height:250px;
+		width:100%;
+		margin:0px auto 20px;
 	}
 }
 
@@ -379,8 +384,13 @@ body{
 
 
 	#facilities, #coach{
+		height:250px;
 		width:340px;
 		margin:0px auto 20px;
+	}
+
+	#map{
+		height:400px;
 	}
 
 	.coachdet{
@@ -418,6 +428,7 @@ body{
 	}
 
 	#facilities, #coach, #map{
+		height:250px;
 		width:360px;
 		margin:0px auto 10px;
 	}
@@ -461,7 +472,8 @@ body{
 @media (max-width:479px)
 {
 	#facilities, #coach, #map{
-		width:280px;
+		height:250px;
+		width:240px;
 		margin:0px auto 15px;
 	}
 
