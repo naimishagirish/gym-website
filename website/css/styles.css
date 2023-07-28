@@ -1,0 +1,479 @@
+body{
+	font-size:16px;
+	color: #fff;
+	background-color: #2E2E2E;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.container{
+	margin:0px 0px 0px 0px;
+	width:auto;
+}
+
+/* header */
+
+#btn{
+	background-color: #2E2E2E;
+	margin-top: 20px;
+	border:1px solid #fff;
+}
+
+#btn:active, #btn:hover{
+	.icon-bar{
+	background-color: #000;
+	border: 1px solid #000;
+	}
+
+	border:1px solid #000;
+
+	background-color:#FFD700 ;
+}
+
+.logo-img {
+  width: 399px;
+  height: 90px;
+  margin: 15px 15px 15px 0;
+}
+
+
+#header-nav{
+	background-color: #000;
+	border-radius: 0;
+	border: 0;
+}
+
+
+#nav-list{
+	margin-top:20px;
+}
+
+#nav-list a{
+	text-align:center;
+	color:#FFFFFF;
+}
+
+#nav-list a:hover, #nav-list a:active{
+	color:#FFD700;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #fff;
+}
+
+
+#collapsable-nav a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
+
+/*main page*/
+
+.img-fluid{
+	margin-top:15px;
+	margin-bottom:30px;
+	height:auto;
+	max-width:100%;
+}
+
+#facilities, #coach, #map{
+	height:230px;
+	width:100%;
+	position:relative;
+	border: 1px solid #000;
+	overflow:hidden;
+	margin-bottom: 15px;
+}
+
+#facilities:hover, #coach:hover, #map:hover{
+	box-shadow:0 1px 5px 1px #CCCCCC;
+}
+
+#facilities{
+	background: url(../images/gym.jpg) no-repeat;
+	background-position:center;
+
+}
+
+#coach{
+	background:url(../images/coach2.png) no-repeat;
+	background-position:center;
+
+}
+
+#facilities span, #coach span, #map span{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:100%;
+	text-align:center;
+	font-size:1.6em;
+	text-transform: uppercase;
+	background-color:#000;
+	color:#fff;
+	opacity:0.8;
+}
+
+/*footer*/
+
+.panel-footer{
+	margin-top:10px;
+	padding-top:30px;
+	padding-bottom:30px;
+	background-color:#000;
+	border-top:0;
+
+}
+
+#Hours, #Address{
+	line-height:2;
+}
+
+#Hours>span, #Address>span{
+	font-size:1.3em ;
+}
+
+#Testimonials{
+	font-style:italic;
+}
+
+#Testimonials p:nth-child(2){
+	margin-top: 20px;
+}
+
+/*facilities page*/
+.row{
+	margin:10px;
+}
+
+.fac{
+	height:160px;
+	text-align: center;
+	margin-bottom:20px;
+}
+
+.fac span{
+	text-align:center;
+}
+
+#facilities-title{
+	margin-top: 25px;
+	margin-bottom:10px;
+}
+
+/*coach details page*/
+
+.coachdet{
+	background-color:#fff;
+	border:1px solid #fff;
+	margin:10px;
+	height:535px;
+	border-radius: 25px;
+}
+
+.coachdet img{
+	margin:10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.coachdet h3{
+	color:#000;
+	text-align: center;
+	font-style: bold;
+}
+.coachdet ul{
+	margin:20px;
+}
+.coachdet li{
+	color:#000;
+}
+
+/* Schedule details */
+
+.scheduledet{
+
+	position:relative;
+	border: 1px solid #000;
+	background-color: #fff;
+	color:#000;
+	text-align:center;
+	margin:20px;
+
+}
+
+.scheduledet span{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	text-align:center;
+	font-size:1.4em;
+	text-transform: uppercase;
+	background-color:#000;
+	color:#fff;
+	opacity:1;
+}
+
+.scheduledet p{
+	margin:0px 10px 15px;
+}
+
+/*membership details*/
+
+.memberdet{
+	height:160px;
+	margin:10px;
+	text-align: center;
+}
+
+.memberdet img{
+	margin:10px;
+}
+
+
+.memberdet span{
+	text-align:center;
+}
+
+
+.payment span{
+	font-size:2.6em;
+}
+
+.payment p{
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+}
+
+.payment {
+	margin-top:20px;
+  	background-color:#fff;
+	border:1px solid #fff;
+	color:#000;
+	height:110px;
+	text-align: center;
+}
+
+.vertical{
+  	margin:5px;
+}
+
+.extra{
+	height: 90px;
+  	display: flex;
+  	align-items: center; /* Vertically center its content */
+  	justify-content: center;
+}
+
+
+
+/* contact details */
+
+
+.box, .box1{
+	border-radius: 20px;
+	height:50px;
+	width:200px;
+	background-color:#fff;
+	border:1px solid #000;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin:0px auto 15px;
+	text-align: center;
+}
+
+.box:hover, .box:active
+{
+	box-shadow:0 1px 5px 1px #CCCCCC;
+	background-color:#FFD700 ;
+}
+
+.box1{
+	height:70px;
+}
+
+.box span{
+	color:#000;
+	margin:0px;
+	text-align:center;
+}
+
+.box a{
+	text-decoration:none;
+}
+
+.cont{
+	margin:20px;
+}
+
+
+
+
+@media(min-width:1200px)
+{
+
+
+}
+
+@media (min-width:992px) and (max-width:1199px)
+{
+	
+	
+
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+	.logo-img {
+	  width: 300px;
+	  height: 68px;
+	  margin: 20px 15px 10px 0;
+	}
+
+	#home-tile{
+	width:735px;
+	margin:0px auto 15px;
+	}
+
+
+	#facilities, #coach{
+		width:340px;
+		margin:0px auto 20px;
+	}
+
+	.coachdet{
+		height:500px;
+	}
+	.coachdet ul{
+		margin-left: 15px;
+		margin-right:15px;
+	}
+
+
+	.scheduledet{
+		margin:0px auto 15px;
+		width:300px;
+	}
+
+	#schedule-title{
+		margin-bottom:20px;
+	}
+
+	/*contact details*/
+
+}
+
+@media (max-width:767px)
+{
+	.logo-img {
+	  width: 200px;
+	  height: 45px;
+	  margin: 20px 15px 10px 20px;
+	}
+
+	.img-fluid{
+		margin-bottom: 15px;
+	}
+
+	#facilities, #coach, #map{
+		width:360px;
+		margin:0px auto 10px;
+	}
+
+	.panel-footer section{
+		text-align: center;
+	}
+
+	.fac {
+		margin:0px auto 15px;
+	}
+
+	.coachdet{
+		height:auto;
+		width:max-width;
+	}
+
+
+	.scheduledet{
+		margin:0px auto 15px;
+		width:300px;
+	}
+
+	#schedule-title{
+		margin-bottom:20px;
+	}
+
+	.memberdet img{
+		margin:0;
+		height:80px;
+		width:90px;
+	}
+
+	.payment{
+		width:400px;
+		margin:0px auto 20px;
+	}
+
+}
+
+@media (max-width:479px)
+{
+	#facilities, #coach, #map{
+		width:280px;
+		margin:0px auto 15px;
+	}
+
+	.panel-footer section{
+		text-align: center;
+	}
+
+	.fac {
+		margin:0px auto 15px;
+	}
+
+	.col-xxs-12{
+	  position: relative;
+	  min-height: 1px;
+	  padding-right: 15px;
+	  padding-left: 15px;
+	  width:100%;
+	  float:left;
+	}
+
+	.coachdet{
+		height:auto;
+		width:max-width;
+	}
+
+	.scheduledet{
+		margin:0px auto 15px;
+		width:230px;
+	}
+
+	#schedule-title{
+		margin-bottom:20px;
+	}
+
+	.memberdet img{
+		margin-top:0;
+		margin-bottom:10px;
+	}
+
+	.memberdet{
+	height:120px;
+	}
+
+	.payment{
+		width:250px;
+		margin:0px auto 15px;
+	}
+
+
+}
