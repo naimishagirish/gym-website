@@ -335,10 +335,13 @@ body{
 	border-radius: 25px;
 }
 
+	@media(min-height:600px)
+	{
 	.foot,.foot2,.foot3{
 	position:absolute;
 	bottom:0;
 	width:100%;
+	}
 	}
 
 	
@@ -353,10 +356,13 @@ body{
 
 @media (min-width:992px) and (max-width:1199px)
 {
+	@media(min-height:600px)
+	{
 	.foot2,.foot3{
 	position:absolute;
 	bottom:0;
 	width:100%
+	}
 	}
 
 	#facilities, #coach, #map{
@@ -366,13 +372,15 @@ body{
 	}
 }
 
-@media (min-width:768px) and (max-width:991px)
+@media (min-width:768px) and (max-width:991px) 
 {
-	.foot3{
+	@media(min-height:600px){
+		.foot3{
 	position:absolute;
 	bottom:0;
 	width:100%
 
+	}
 	}
 	.logo-img {
 	  width: 300px;
