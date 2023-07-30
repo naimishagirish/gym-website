@@ -1,3 +1,3 @@
 # gym-website
 
-http://naimisha-girish.github.io/gym-website/website.html
+Website is hosted on- http://naimisha-girish.github.io/gym-website/website/
